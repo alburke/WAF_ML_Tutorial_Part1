@@ -3,13 +3,13 @@
 ## Introduction 
 This repository is the code associated with the [WAF](https://journals.ametsoc.org/view/journals/wefo/wefo-overview.xml) manuscript titled: "A Machine Learning Tutorial for Operational Meteorology, Part I: Traditional Machine Learning" written by Chase, R. J., Harrison, D. R., Burke, A., Lackmann, G. and McGovern, A. *under review*. While the paper undergoes review, feel free to read its [preprint](https://github.com/ai2es/WAF_ML_Tutorial_Part1) and provide any comments to via email to the corresponding author. If you have any issues with the code (bugs or other questions) please leave an [issue](https://github.com/ai2es/WAF_ML_Tutorial_Part1/issues) associated with this repo.
 
-This first paper and repo (of two) covers the *traditional* supervised machine learning methods (e.g., the ```sklearn``` models; if you don't know what that phrase even means thats OK! Check out Section 2 in the paper). We decided to start off with the orginal machine learning methods, before jumping into the more advanced techniques. Part two of this paper series willl dig into neural networks and deep learning. When that paper is submitted the repo will be linked [here](#) (right now its a dead link, taking you back here).
+This first paper and repo (of two) covers the *traditional* supervised machine learning methods (e.g., the ```sklearn``` models; if you don't know what that phrase even means that’s OK! Check out Section 2 in the paper). We decided to start off with the original machine learning methods, before jumping into the more advanced techniques. Part two of this paper series will dig into neural networks and deep learning. When that paper is submitted the repo will be linked [here](#) (right now its a dead link, taking you back here).
 
 ## Motivation
 
  <img src="images/webofscience_fig.png" width="600" height="200" class="center" />
 
-Meteorological journal articles mentioning or using machine learning is growing rapidly (see figure above or Figure 1 in the paper; Data are derived from Clarivate Web of Science). Since there is such rapid growth and formal instruction of machine learning topics catered for meteorologsts are scarce, this manuscript and code repository were created. The goal is to familiarize meteorologists with the tools of machine learning and accelerate the use of machine learning in meteorological workflows. In order to accomplish these goals, it is imperative that code and a sandbox for readers to play around with exisit. 
+Meteorological journal articles mentioning or using machine learning is growing rapidly (see figure above or Figure 1 in the paper; Data are derived from Clarivate Web of Science). Since there is such rapid growth and formal instruction of machine learning topics catered for meteorologists are scarce, this manuscript and code repository were created. The goal is to familiarize meteorologists with the tools of machine learning and accelerate the use of machine learning in meteorological workflows. In order to accomplish these goals, it is imperative that code and a sandbox for readers to play around with exists.
 
 ## Background on the example dataset
 
@@ -25,11 +25,11 @@ There are two main ways to interact with the code here.
 
 ## Use Google Colab 
 
-   This is the reconmended and the quickest way to get started and only requires a (free) google account. Google Colab is a cloud instance of python that is run from your favorite web browser (although works best in Chrome). If you wish to use these notebooks, see the directory named colab_notebooks. There will be a button at the top of the notebook that says *open in colab*. This will take you to a new browser and open the notebook.
+   This is the recommended and the quickest way to get started and only requires a (free) google account. Google Colab is a cloud instance of python that is run from your favorite web browser (although works best in Chrome). If you wish to use these notebooks, see the directory named colab_notebooks. There will be a button at the top of the notebook that says *open in colab*. This will take you to a new browser and open the notebook.
 
 ## Install python on your local machine and run notebooks there
 
-   This is a bit more intense, especially for people who have never installed python on their machine. This method does allow you to always have the right packages installed and would enable you to actually download all of the SEVIR dataset if you want it (although it is very big... 924G total). 
+   This is a bit more intense, especially for people who have never installed python on their machine. This method does allow you to always have the right packages installed and would enable you to download all of the SEVIR dataset if you want it (although it is very big... 924G total). 
 
    1. Setup a Python installation on the machine you are using. I
    recommend installing [Miniconda](https://docs.conda.io/en/latest/miniconda.html) since
@@ -45,7 +45,7 @@ There are two main ways to interact with the code here.
 
       ``` $ git clone https://github.com/ai2es/WAF_ML_Tutorial_Part1.git ``` 
 
-      If you dont have git, you can install git ([Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)) or choose the "Download Zip" option, unzip it and then continue with these steps. 
+      If you don’t have git, you can install git ([Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)) or choose the "Download Zip" option, unzip it and then continue with these steps. 
 
    3. Change into the newly downloaded directory 
 
@@ -59,7 +59,7 @@ There are two main ways to interact with the code here.
 
       ``` $ conda activate waf_tutorial_part1 ``` 
 
-   6. Add this new environement to a kernel in jupyter 
+   6. Add this new environment to a kernel in jupyter 
 
       ```$ python -m ipykernel install --user --name waf_tutorial_part1 --display-name "waf_tutorial_part1" ```
 
